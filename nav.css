@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page-content {
+  position: relative;
+  z-index: 0;
+  transition: all ease-out 0.5s ;
+  background: #eeeeee; }
+
+.toggle {
+  text-decoration: none;
+  font-size: 30px;
+  color: gold;
+  transition: all ease-out 0.5s ;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  cursor: pointer; }
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -190px;
+  transition: all ease-out 0.5s ;
+  width: 120px;
+  padding: 30px;
+  background: rgba(51,51,51,0.4);
+  z-index: 0; }
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .sidebar li {
+	  padding-bottom:15px;
+  }
+  .sidebar li a{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 16px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer; }
+    .sidebar li a:hover {
+      color: white; }
+
+#sidebartoggler {
+  display: none; }
+  #sidebartoggler:checked + .page-wrap .sidebar {
+    left: 0px; }
+  #sidebartoggler:checked + .page-wrap .toggle {
+    left: 200px; }
+  #sidebartoggler:checked + .page-wrap .page-content {
+    padding-left: 180px; }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
