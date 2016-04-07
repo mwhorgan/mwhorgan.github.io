@@ -10,11 +10,7 @@ a {
 }
 	.header {
 		height:100vh;
-<<<<<<< HEAD
 		background-image:url(../_img/badlands.jpg);
-=======
-		background-image:url(http://mwhorgan.github.io/_img/badlands.jpg);
->>>>>>> origin/master
 		size: cover;
 		position: center;
 		margin-bottom: 50px;
