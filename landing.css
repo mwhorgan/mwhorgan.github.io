@@ -24,6 +24,21 @@ a {
 		color:gold;
 		text-shadow:0px 0px 15px black;
 	}
+	
+	.wpd {
+		background-image:url(/_img/placeholder.jpg);
+		color: white;
+	}
+	
+	.wh1 {
+		background-image:url(/_img/placeholder3.jpg);
+		color: SaddleBrown;
+	}
+	
+	.advprg {
+		background-image:url(/_img/placeholder4.jpg);
+		color: black;
+	}
 	p {
 		width: 800px;
 		margin: 10px auto 20px;
