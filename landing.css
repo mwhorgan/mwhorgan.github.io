@@ -28,18 +28,24 @@ a {
 	.wpd {
 		background-image:url(/_img/placeholder.jpg);
 		background-size: contain;
+		background-repeat: no-repeat;
+		transform: translate(-50%, -50%);
 		color: white;
 	}
 	
 	.wh1 {
 		background-image:url(/_img/placeholder3.jpg);
 		background-size: contain;
+		background-repeat: no-repeat;
+		transform: translate(-50%, -50%);
 		color: SaddleBrown;
 	}
 	
 	.advprg {
 		background-image:url(/_img/placeholder4.jpg);
 		background-size: contain;
+		background-repeat: no-repeat;
+		transform: translate(-50%, -50%);
 		color: black;
 	}
 	p {
