@@ -27,8 +27,8 @@ a {
 	
 	.wpd {
 		background-image:url(/_img/placeholder.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
+		background-size: contain !important;
+		background-repeat: no-repeat !important;
 		position: center;
 		/*transform: translate(-50%, -50%);*/
 		color: white;
@@ -36,8 +36,8 @@ a {
 	
 	.wh1 {
 		background-image:url(/_img/placeholder3.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
+		background-size: contain !important;
+		background-repeat: no-repeat !important;
 		position: center;
 		/*transform: translate(-50%, -50%);*/
 		color: SaddleBrown;
@@ -45,8 +45,8 @@ a {
 	
 	.advprg {
 		background-image:url(/_img/placeholder4.jpg);
-		background-size: contain;
-		background-repeat: no-repeat;
+		background-size: contain !important;
+		background-repeat: no-repeat !important;
 		position: center;
 		/*transform: translate(-50%, -50%);*/
 		color: black;
