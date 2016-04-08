@@ -26,6 +26,7 @@ a {
 	}
 	
 	.wpd {
+		position: fixed;
 		background-image:url(/_img/placeholder.jpg);
 		background-size: 100% !important;
 		background-repeat: no-repeat !important;
@@ -35,6 +36,7 @@ a {
 	}
 	
 	.wh1 {
+		position: fixed;
 		background-image:url(/_img/placeholder3.jpg);
 		background-size: 100% !important;
 		background-repeat: no-repeat !important;
@@ -44,6 +46,7 @@ a {
 	}
 	
 	.advprg {
+		position: fixed;
 		background-image:url(/_img/placeholder4.jpg);
 		background-size: contain !important;
 		background-repeat: no-repeat !important;
