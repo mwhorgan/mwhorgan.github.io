@@ -27,16 +27,19 @@ a {
 	
 	.wpd {
 		background-image:url(/_img/placeholder.jpg);
+		size: auto;
 		color: white;
 	}
 	
 	.wh1 {
 		background-image:url(/_img/placeholder3.jpg);
+		size: auto;
 		color: SaddleBrown;
 	}
 	
 	.advprg {
 		background-image:url(/_img/placeholder4.jpg);
+		size: auto;
 		color: black;
 	}
 	p {
