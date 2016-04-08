@@ -10,7 +10,7 @@ a {
 }
 	.header {
 		height:100vh;
-		background-image:url(../_img/badlands.jpg);
+		background-image:url(_img/badlands.jpg);
 		size: cover;
 		position: center;
 		margin-bottom: 50px;
