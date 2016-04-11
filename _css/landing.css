@@ -10,7 +10,7 @@ a {
 }
 	.header {
 		height:100vh;
-		background-image:url(/_img/badlands.jpg);
+		background-image:url(../_img/badlands.jpg);
 		size: cover;
 		position: center;
 		margin-bottom: 50px;
@@ -27,7 +27,7 @@ a {
 	
 	.wpd {
 		position: fixed;
-		background-image:url(/_img/placeholder.jpg);
+		background-image:url(../_img/placeholder.jpg);
 		background-size: 100% !important;
 		background-repeat: no-repeat !important;
 		background-position: center;
@@ -37,7 +37,7 @@ a {
 	
 	.wh1 {
 		position: fixed;
-		background-image:url(/_img/placeholder3.jpg);
+		background-image:url(../_img/placeholder3.jpg);
 		background-size: 100% !important;
 		background-repeat: no-repeat !important;
 		background-position: center;
@@ -47,7 +47,7 @@ a {
 	
 	.advprg {
 		position: fixed;
-		background-image:url(/_img/placeholder4.jpg);
+		background-image:url(../_img/placeholder4.jpg);
 		background-size: contain !important;
 		background-repeat: no-repeat !important;
 		background-position: center;
