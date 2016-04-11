@@ -5,6 +5,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width">
     <link rel="icon" sizes="196x196" href="bunny.png">
+    <link href="_css/nav.css" rel="stylesheet" type="text/css">
 	<title>Bunny Defender</title>
     <script src="libs/phaser.js"></script>
     <script src="Boot.js"></script>
@@ -18,8 +19,25 @@
 			background-color: #000000;
 		}
 	</style>
+	<link href="../_css/nav.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<input type="checkbox" id="sidebartoggler" name="" value="">
+   	
+    <div class="page-wrap">
+        <label for="sidebartoggler" class="toggle">☰</label>
+
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="bdtest/index.html" title="BunnyDefender">Bunny Defender Test Page</a></li>
+                <li><a href="wh1/wh1.html" title="World History I">World History I</a>
+                <li><a href="wpd/wpd.html" title="Web Page Development">Web Page Development</a></li>
+                <li><a href="advprg/advprg.html" title="Advanced Programming">Advanced Programming</a></li>
+            </ul>
+        </div>
+	</div>
+    
     <div id="gameContainer"></div>
     <script type="text/javascript">
         window.onload = function() {
